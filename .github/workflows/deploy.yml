@@ -25,8 +25,7 @@ jobs:
       - run: npm ci
       - run: npm run build
         env:
-          # placeholder até o backend ter uma URL pública — trocar quando o Render/Railway estiver no ar
-          VITE_API_URL: http://localhost:3000
+          VITE_API_URL: https://backend-conversor-video-1.onrender.com
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
