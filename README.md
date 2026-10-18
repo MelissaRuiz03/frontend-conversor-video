@@ -3,6 +3,7 @@
 Interface em React que permite colar o link de um vídeo do YouTube e
 baixar o áudio convertido em MP3. Consome a API do repositório de backend.
 
+🔗 App no ar: https://melissaruiz03.github.io/frontend-conversor-video/
 🔗 Backend (API): https://github.com/MelissaRuiz03/backend-conversor-video
 
 ## Como rodar
